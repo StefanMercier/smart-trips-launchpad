@@ -16,9 +16,9 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#features" className="text-gray-700 transition-colors" style={{ '&:hover': { color: '#749f45' } }}>Features</a>
-            <a href="#how-it-works" className="text-gray-700 transition-colors" style={{ '&:hover': { color: '#749f45' } }}>How It Works</a>
-            <a href="#contact" className="text-gray-700 transition-colors" style={{ '&:hover': { color: '#749f45' } }}>Contact</a>
+            <a href="#features" className="text-gray-700 hover:text-[#749f45] transition-colors">Features</a>
+            <a href="#how-it-works" className="text-gray-700 hover:text-[#749f45] transition-colors">How It Works</a>
+            <a href="#contact" className="text-gray-700 hover:text-[#749f45] transition-colors">Contact</a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -29,8 +29,7 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700"
-              style={{ '&:hover': { color: '#749f45' } }}
+              className="text-gray-700 hover:text-[#749f45] transition-colors"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />

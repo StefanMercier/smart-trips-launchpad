@@ -16,7 +16,7 @@ const CTA = () => {
           <Button size="lg" className="text-lg font-semibold px-8 py-3 hover:opacity-90" style={{ backgroundColor: 'white', color: '#749f45' }}>
             Start Free Trial
           </Button>
-          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white px-8 py-3 text-lg" style={{ '&:hover': { color: '#749f45' } }}>
+          <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-[#749f45] px-8 py-3 text-lg">
             Schedule Demo
           </Button>
         </div>
