@@ -3,20 +3,20 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-20 lg:py-32">
+    <section className="relative py-20 lg:py-32" style={{ background: 'linear-gradient(to bottom right, #f0f4e8, #e8f1df)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Smart Trips for{" "}
-              <span className="text-blue-600">Smart Travelers</span>
+              <span style={{ color: '#749f45' }}>Smart Travelers</span>
             </h1>
             <p className="text-xl text-gray-600 mt-6 leading-relaxed">
               Build your itinerary, recruit students, and book a trip within minutes. 
               Experience the future of educational travel planning.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8 py-3 text-lg">
+              <Button size="lg" className="px-8 py-3 text-lg hover:opacity-90" style={{ backgroundColor: '#749f45' }}>
                 Start Planning Now
               </Button>
               <Button variant="outline" size="lg" className="px-8 py-3 text-lg">
@@ -25,15 +25,15 @@ const Hero = () => {
             </div>
             <div className="mt-12 flex items-center space-x-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">10K+</div>
+                <div className="text-3xl font-bold" style={{ color: '#749f45' }}>10K+</div>
                 <div className="text-sm text-gray-600">Students Traveled</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">500+</div>
+                <div className="text-3xl font-bold" style={{ color: '#749f45' }}>500+</div>
                 <div className="text-sm text-gray-600">Schools Partnered</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">50+</div>
+                <div className="text-3xl font-bold" style={{ color: '#749f45' }}>50+</div>
                 <div className="text-sm text-gray-600">Countries</div>
               </div>
             </div>

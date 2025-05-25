@@ -40,7 +40,7 @@ const HowItWorks = () => {
             {steps.map((step, index) => (
               <div key={index} className="flex items-start space-x-6">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                  <div className="w-12 h-12 text-white rounded-full flex items-center justify-center font-bold text-lg" style={{ backgroundColor: '#749f45' }}>
                     {step.step}
                   </div>
                 </div>
